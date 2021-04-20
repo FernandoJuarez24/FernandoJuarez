@@ -6,9 +6,9 @@ function link00(){
 }
 function link01(){
 	//Web HOUSE OF COMIC
-	window.open('https://www.google.com');
+	window.open('https://fernandojuarez24.github.io/HoCMX/');
 }
 function link02(){
 	//Web ADRIANA JUAREZ
-	window.open('https://www.google.com');
+	window.open('https://fernandojuarez24.github.io/AdrianaJuarez/');
 }
