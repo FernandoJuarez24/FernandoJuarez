@@ -240,6 +240,11 @@ body{
 	text-align: center;
 	padding-top: 80px;
 }
+.about .infoAbout p a{
+	color:var(--grisOscuro);
+	font-weight: bold;
+	font-size: 25px;
+}
 .about .imgAbout{
 	width:80%;
 	margin:auto;
@@ -247,9 +252,14 @@ body{
 	text-align: center;
 }
 .about .imgAbout img{
-	width: 80%;
-	height: 500px;
+	/*width: 80%;*/
+	height: 400px;
 	object-fit: cover;
+	cursor: pointer;
+}
+.about .imgAbout img:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
 }
 
 /*FOOTER*/

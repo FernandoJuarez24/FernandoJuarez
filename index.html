@@ -59,8 +59,8 @@
 				</div>
 
 				<div class="proyectosIMG">
-					<img onclick='link01()' src="img/proyectos/01.jpg" alt="Tienda en Línea">
-					<img onclick='link02()' src="img/proyectos/02.jpg" alt="Artista Gráfica">
+					<img id='hoc' onclick='link01()' onmouseover="cambio01()" onmouseout="regreso01()" src="img/proyectos/01.jpg" alt="Tienda en Línea">
+					<img id='aj' onclick='link02()' onmouseover="cambio02()" onmouseout="regreso02()" src="img/proyectos/02.jpg" alt="Artista Gráfica">
 					<img onclick='link00()' src="img/proyectos/00.jpg" alt="Próximamente">
 				</div>
 			</div>
@@ -82,11 +82,12 @@
 				<div class="tituloAbout">
 					<h2>Conociendo al Desarrollador</h2>
 				</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consequuntur dignissimos, deleniti non obcaecati rem veritatis! Cumque laborum voluptatem, aperiam, sit sint fugit? Numquam aliquid, est sapiente, nulla, expedita quia, facilis debitis magnam aspernatur delectus vel exercitationem quo. Voluptates expedita sit necessitatibus fugit quasi eaque in rerum, ratione adipisci. Inventore.</p>
+				<p>Hola… yo soy <b>Fernando Juárez Aldorica</b>, licenciado en Informática egresado de la <b>FES-Cuautitlán</b> con inclinación hacia el <b>Desarrollo Web Front-End.</b> Cuento con experiencia en diseño de <b>Mockups</b> y desarrollo de <b>Landing Pages</b>, enfocado al <b>Marketing Digital.</b><br><br>Del lado de programación manejo <b>HTML5, CSS3 y JavaScript,</b> por el lado del diseño tengo conocimientos en <b>PhotoShop.</b></p>
+				<p><a href="" onclick="alerta()">Portafolios</a></p>
 			</div>
 
 			<div class="imgAbout">
-				<img src="img/about.jpg" alt="">
+				<img id='aboutImg' onclick='mail()' onmouseover="cambioAbout()" onmouseout="regresoAbout()" src="img/about.jpg" alt="">
 			</div>
 		</section>
 	</main>
@@ -106,7 +107,7 @@
 	<!--SCRIPTS-->
 	<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
-	<script src="js/proyectos.js"></script>
+	<script src="js/funciones.js"></script>
 	<script src="js/particles.js"></script>
 	<script src="js/particles-lib.js"></script>
 </body>
