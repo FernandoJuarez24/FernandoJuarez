@@ -245,6 +245,10 @@ body{
 	font-weight: bold;
 	font-size: 25px;
 }
+.about .infoAbout p a:hover{
+	font-size: 30px;
+	transition: 0.5s;
+}
 .about .imgAbout{
 	width:80%;
 	margin:auto;
@@ -275,6 +279,70 @@ body{
 	color:var(--grisClaro);
 	font-size: 18px;
 }
+
+/*PORTAFOLIOS*/
+.portafolios{
+	position:relative;
+	width: 100%;
+	height: 100vh;
+	background:url(../img/porta.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.portafolios .degradado{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.portafolios .ejeZ{
+	position:relative;
+	width: 100%;
+	height: 100%;
+}
+.portafolios .contenedorPorta{
+	width: 90%;
+	margin:auto;
+	padding-top: 100px;
+}
+.portafolios .contenedorPorta .tituloPorta{
+	border:2px solid var(--grisClaro);
+	padding:10px;
+	text-align: center;
+	width: 60%;
+	margin:100px auto;
+}
+.portafolios .contenedorPorta .tituloPorta h1{
+	font-size: 50px;
+	color:var(--grisClaro);
+	font-weight: lighter;
+}
+.portafolios .contenedorPorta .imgPorta{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top:80px;
+	padding-bottom: 100px;
+}
+.portafolios .contenedorPorta .imgPorta img{
+	width: calc(30% - 10px);
+	margin:10px;
+	object-fit: cover;
+	cursor: pointer;
+}
+.portafolios .contenedorPorta .imgPorta img:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
 
 /*HOME*/
 .home{

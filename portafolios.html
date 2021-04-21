@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desarrollador Web</title>
+
+	<!--Estilos-->
+	<link rel="stylesheet" type='text/css' href="css/estilos.css">
+	<link rel="stylesheet" href="css/responsivo.css">
+
+	<!--Fuente-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<!--MENU DE NAVEGACION-->
+	<header id="header">
+		<nav class="menu">
+			<div class="logo">
+				<h1>
+					<a href="index.html">F.J. | Desarrollador Web</a>
+					<span class="btnMenu"><i class="fas fa-bars"></i></span>
+				</h1>
+			</div>
+
+			<div class="contenedorMenu">
+				<ul class="lista">
+					<li>
+						<a href="index.html#proyectos">Proyectos</a>
+					</li>
+					<li>
+						<a href="index.html#about">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main id='main'>
+		<!--PORTAFOLIOS-->
+		<section class="portafolios">
+			<!--DEGRADADO-->
+			<div class="degradado"></div>
+			<div class="ejeZ">
+
+				<div class="contenedorPorta">
+					<div class="tituloPorta">
+						<h1>Portafolios</h1>
+					</div>
+
+					<div class="imgPorta">
+						<img id='01' onmouseover="cambioPorta01()" onmouseout="regresoPorta01()" src="img/portafolios/01.jpg" alt="Plantilla Landing Page">
+						<img id='02' onmouseover="cambioPorta02()" onmouseout="regresoPorta02()" src="img/portafolios/02.jpg" alt="Plantilla Landing Page + Particle">
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!--FOOTER-->
+	<footer class="footer">
+		<p>&copy; Fernando Juárez | Desarrollador Web | Derechos Reservados 2021</p>
+	</footer>
+
+	<!--HOME-->
+	<div class="home">
+		<i class="far fa-hand-point-up"></i>
+	</div>
+
+
+
+	<!--SCRIPTS-->
+	<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+	<script src="js/funciones.js"></script>
+</body>
+</html>

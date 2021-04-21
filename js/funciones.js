@@ -25,10 +25,6 @@ function regreso02(){
 	document.getElementById('aj').src='img/proyectos/02.jpg'
 }
 
-//PORTAFOLIOS
-function alerta(){
-	alert('Sección en contrucción.')
-}
 //ABOUT
 function cambioAbout(){
 	document.getElementById('aboutImg').src='img/about-01.jpg'
@@ -39,5 +35,20 @@ function regresoAbout(){
 //CONTACTO
 function mail(){
 	window.open('mailto:fernandojuareza24@gmail.com');
-
 }
+//PORTAFOLIOS
+//PRIMERA PLANTILLA
+function cambioPorta01(){
+	document.getElementById('01').src='img/portafolios/01-01.jpg'
+}
+function regresoPorta01(){
+	document.getElementById('01').src='img/portafolios/01.jpg'
+}
+//SEGUNDA PLANTILLA
+function cambioPorta02(){
+	document.getElementById('02').src='img/portafolios/02-02.jpg'
+}
+function regresoPorta02(){
+	document.getElementById('02').src='img/portafolios/02.jpg'
+}
+
