@@ -23,7 +23,7 @@
 		display:block;
 		position:absolute;
 		top:13px;
-		right: 40px;
+		right: 25px;
 		font-size: 35px;
 		cursor: pointer;
 		color:var(--grisClaro);
@@ -65,7 +65,7 @@
 		font-size: 40px;
 	}
 	.imgHeader .welcome hr{
-		width: 70%;
+		width: 80%;
 	}
 	.imgHeader .welcome p{
 		font-size: 20px;
@@ -80,7 +80,13 @@
 		transform: none;
 	}
 	.frase .fraseImg h4{
-		font-size: 30px;
+		font-size: 25px;
+	}
+	.frase .fraseImg p{
+		font-size: 20PX;
+	}
+	.about .infoAbout .tituloAbout{
+		width: 75%;
 	}
 	.about .infoAbout .tituloAbout h2{
 		font-size: 35px;
@@ -92,7 +98,7 @@
 		transform: none;
 	}
 	.footer p{
-		font-size: 15px;
+		font-size: 12px;
 	}
 	.about .imgAbout #aboutImg{
 		display: none;
