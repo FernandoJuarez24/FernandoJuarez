@@ -28,3 +28,29 @@ window.onscroll = () => {
     	document.documentElement.scrollTop = '0';
     });
 }
+
+
+let menu = document.querySelector('.contenedorMenu');
+let containerMenu = document.querySelector('.menu');
+let activador = true;
+
+
+//Menu de animacion
+btnMenu.addEventListener('click', () =>{
+    
+    document.querySelector('.btnMenu i').classList.toggle('fa-times');
+
+    if(activador){
+        menu.style.left = '0';
+        menu.style.transition = '0.5s';
+
+        activador = false;
+    }else{
+        activador = false;
+
+        menu.style.left = '-100%';
+        menu.style.transition = '0.5s';
+
+        activador = true;
+    }
+});
