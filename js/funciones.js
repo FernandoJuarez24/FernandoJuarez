@@ -38,17 +38,24 @@ function mail(){
 }
 //PORTAFOLIOS
 //PRIMERA PLANTILLA
+function linkP01(){
+	window.open('https://fernandojuarez24.github.io/plantillaLandingPage/');
+}
 function cambioPorta01(){
 	document.getElementById('01').src='img/portafolios/01-01.jpg'
 }
 function regresoPorta01(){
 	document.getElementById('01').src='img/portafolios/01.jpg'
 }
+
 //SEGUNDA PLANTILLA
 function cambioPorta02(){
 	document.getElementById('02').src='img/portafolios/02-02.jpg'
 }
 function regresoPorta02(){
 	document.getElementById('02').src='img/portafolios/02.jpg'
+}
+function linkP02(){
+	window.open('https://fernandojuarez24.github.io/LandingPageParticle/');
 }
 
