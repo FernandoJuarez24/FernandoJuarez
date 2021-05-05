@@ -34,6 +34,16 @@ function cambio03(){
 function regreso03(){
 	document.getElementById('pan').src='img/proyectos/03.jpg'
 }
+function link04(){
+	//Web AGENCIA DE AUTOS
+	window.open('https://fernandojuarez24.github.io/MiCarcacha/');
+}
+function cambio04(){
+	document.getElementById('auto').src='img/proyectos/04-04.jpg'
+}
+function regreso04(){
+	document.getElementById('auto').src='img/proyectos/04.jpg'
+}
 
 //ABOUT
 function cambioAbout(){
