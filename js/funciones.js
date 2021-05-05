@@ -24,6 +24,16 @@ function cambio02(){
 function regreso02(){
 	document.getElementById('aj').src='img/proyectos/02.jpg'
 }
+function link03(){
+	//Web PANADERIA
+	window.open('https://fernandojuarez24.github.io/LaTradicional/');
+}
+function cambio03(){
+	document.getElementById('pan').src='img/proyectos/03-03.jpg'
+}
+function regreso03(){
+	document.getElementById('pan').src='img/proyectos/03.jpg'
+}
 
 //ABOUT
 function cambioAbout(){
