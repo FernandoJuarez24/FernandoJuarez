@@ -79,4 +79,14 @@ function appCambio02(){
 function appRegreso02(){
 	document.getElementById('swiper').src='img/apps/02.jpg'
 }
+//Menú Animado
+function app03(){
+	window.open('https://fernandojuarez24.github.io/MenuAnimado/');
+}
+function appCambio03(){
+	document.getElementById('menuAnimado').src='img/apps/03-03.jpg'
+}
+function appRegreso03(){
+	document.getElementById('menuAnimado').src='img/apps/03.jpg'
+}
 
