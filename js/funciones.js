@@ -69,4 +69,14 @@ function appCambio01(){
 function appRegreso01(){
 	document.getElementById('lightbox').src='img/apps/01.jpg'
 }
+//Slideshow + Swipper
+function app02(){
+	window.open('https://fernandojuarez24.github.io/Slideshow_con_Swiper/');
+}
+function appCambio02(){
+	document.getElementById('swiper').src='img/apps/02-02.jpg'
+}
+function appRegreso02(){
+	document.getElementById('swiper').src='img/apps/02.jpg'
+}
 
