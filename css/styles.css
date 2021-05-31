@@ -1,3 +1,4 @@
+/*Estilos Responsivos*/
 :root{
 	--negro:#0B0B0D;
 	--grisOscuro:#474A56;
@@ -59,6 +60,12 @@
 	.menu .logo h1 a{
 		font-size: 25px;
 	}
+	.proyectos .contenedorProyectos .proyectosIMG img{
+		width: 80%;
+	}
+	.apps .appsContenedor .appsImg img{
+		width: 80%;
+	}
 }
 @media only screen and (max-width: 550px){
 	.imgHeader .welcome h1{
@@ -107,16 +114,13 @@
 		display: block;
 		margin:auto;
 	}
-	.portafolios .contenedorPorta .tituloPorta h1{
+	.apps .appsContenedor .appsTitulo h1{
 		font-size: 35px;
 	}
-	.portafolios .contenedorPorta .imgPorta img{
+	.apps .appsContenedor .appsImg img{
 		width: 90%;
 	}
-	.portafolios .contenedorPorta .imgPorta img:hover{
-		transform: none;
-	}
-	.portafolios{
-		height:100%;
+	.apps .appsContenedor .appsImg img:hover{
+		transform:none;
 	}
 }
