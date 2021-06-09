@@ -12,7 +12,7 @@ function regreso01(){
 	document.getElementById('hoc').src='img/proyectos/01.jpg'
 }
 
-//Web ADRIANA JUAREZ
+//Landing ADRIANA JUAREZ
 function link02(){
 	window.open('https://fernandojuarez24.github.io/AdrianaJuarez/');
 }
@@ -23,7 +23,7 @@ function regreso02(){
 	document.getElementById('aj').src='img/proyectos/02.jpg'
 }
 
-//Web PANADERIA
+//Landing PANADERIA
 function link03(){
 	window.open('https://fernandojuarez24.github.io/LaTradicional/');
 }
@@ -34,7 +34,7 @@ function regreso03(){
 	document.getElementById('pan').src='img/proyectos/03.jpg'
 }
 
-//Web AGENCIA DE AUTOS
+//Landing AGENCIA DE AUTOS
 function link04(){
 	window.open('https://fernandojuarez24.github.io/MiCarcacha/');
 }
@@ -43,6 +43,17 @@ function cambio04(){
 }
 function regreso04(){
 	document.getElementById('auto').src='img/proyectos/04.jpg'
+}
+
+//Landing TIENDA DE TENIS
+function link05(){
+	window.open('https://fernandojuarez24.github.io/AirMexican/');
+}
+function cambio05(){
+	document.getElementById('tenis').src='img/proyectos/05-05.jpg'
+}
+function regreso05(){
+	document.getElementById('tenis').src='img/proyectos/05.jpg'
 }
 
 //ABOUT
