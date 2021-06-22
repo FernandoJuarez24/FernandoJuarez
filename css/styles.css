@@ -63,6 +63,9 @@
 	.proyectos .contenedorProyectos .proyectosIMG img{
 		width: 80%;
 	}
+	.proyectos .contenedorProyectos .proyectosIMGWeb img{
+		width: 80%;
+	}
 	.apps .appsContenedor .appsImg img{
 		width: 80%;
 	}
@@ -122,5 +125,8 @@
 	}
 	.apps .appsContenedor .appsImg img:hover{
 		transform:none;
+	}
+	.proyectos .contenedorProyectos .subTitulo h2{
+		font-size: 30px;
 	}
 }
