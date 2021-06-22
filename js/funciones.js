@@ -100,4 +100,14 @@ function appCambio03(){
 function appRegreso03(){
 	document.getElementById('menuAnimado').src='img/apps/03.jpg'
 }
+//Pantalla de Carga
+function app04(){
+	window.open('https://fernandojuarez24.github.io/PantallaCarga/');
+}
+function appCambio04(){
+	document.getElementById('carga').src='img/apps/04-04.jpg'
+}
+function appRegreso04(){
+	document.getElementById('carga').src='img/apps/04.jpg'
+}
 
