@@ -151,12 +151,31 @@ body{
 	color:var(--grisOscuro);
 	font-weight: lighter;
 }
+.proyectos .contenedorProyectos .subTitulo{
+	padding: 10px;
+	text-align: center;
+	width: 60%;
+	margin:100px auto;
+}
+.proyectos .contenedorProyectos .subTitulo h2{
+	font-size: 35px;
+	color:var(--grisOscuro);
+	font-weight: lighter;
+}
+.proyectos .contenedorProyectos .subTitulo hr{
+	border:none;
+	outline: none;
+	height: 2px;
+	background: var(--grisOscuro);
+	width:100px;
+	margin:10px auto;
+}
 .proyectos .contenedorProyectos .proyectosIMG{
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 80px;
+	margin-top: 50px;
 	padding-bottom: 200px;
 }
 .proyectos .contenedorProyectos .proyectosIMG img{
