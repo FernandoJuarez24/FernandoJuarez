@@ -110,4 +110,14 @@ function appCambio04(){
 function appRegreso04(){
 	document.getElementById('carga').src='img/apps/04.jpg'
 }
+//Carrusel de Imágenes
+function app05(){
+	window.open('https://fernandojuarez24.github.io/SliderJS/');
+}
+function appCambio05(){
+	document.getElementById('carrusel').src='img/apps/05-05.jpg'
+}
+function appRegreso05(){
+	document.getElementById('carrusel').src='img/apps/05.jpg'
+}
 

@@ -137,7 +137,7 @@ body{
 .proyectos .contenedorProyectos{
 	width: 90%;
 	margin:auto;
-	padding-top: 200px;
+	padding: 200px 0 100px 0;
 }
 .proyectos .contenedorProyectos .tituloProyectos{
 	border:2px solid var(--grisOscuro);
@@ -191,20 +191,20 @@ body{
 	margin:10px;
 	object-fit: cover;
 	cursor:pointer;
+	transition: 0.5s;
 }
 .proyectos .contenedorProyectos .proyectosIMG img{
 	width: calc(30% - 10px);
 	margin:10px;
 	object-fit: cover;
 	cursor:pointer;
+	transition: 0.5s;
 }
 .proyectos .contenedorProyectos .proyectosIMGWeb img:hover{
 	transform: scale(1.2);
-	transition: 0.5s;
 }
 .proyectos .contenedorProyectos .proyectosIMG img:hover{
 	transform: scale(1.2);
-	transition: 0.5s;
 }
 
 /*APLICACIONES*/
@@ -244,10 +244,10 @@ body{
 	margin:10px;
 	object-fit: cover;
 	cursor:pointer;
+	transition: 0.5s;
 }
 .apps .appsContenedor .appsImg img:hover{
 	transform: scale(1.2);
-	transition: 0.5s;
 }
 
 /*FRASE*/	
@@ -341,9 +341,9 @@ body{
 	object-fit: cover;
 	cursor: pointer;
 	border-radius: 500px;
+	transition: 0.5s;
 }
 .about .imgAbout img:hover{
-	transition: 0.5s;
 	border-radius: 500px;
 }
 .about .imgAbout #aboutImg02{
