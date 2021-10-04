@@ -1,178 +1,227 @@
-<!--DESARROLLADO POR FERNANDO JUAREZ ALDORICA-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Desarrollo Web</title>
+	<title>Desarrollos Web</title>
 
-	<!--Descripcion-->
-	<meta name="descripcion" content="Hola… yo soy Fernando Juárez Aldorica, licenciado en Informática egresado de la FES-Cuautitlán con inclinación hacia el Desarrollo Web Front-End. Cuento con experiencia en diseño de Mockups y desarrollo de Landing Pages Responsivas. Juntos hagamos que tu marca o negocio llegue a más personas y planta bandera dentro del internet.">
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="icono.png" type="image/x-icon">
 
-	<!--Keyword-->
-	<meta name="keywords" content="desarrollo web, paginas web, landing page, marketing digital, javascript">
+	<!-- ESTILOS -->
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/responsivo.css">
 
-	<!--Estilos-->
-	<link rel="stylesheet" type='text/css' href="css/estilos.css">
-	<link rel="stylesheet" type='text/css' href="css/styles.css"><!--ESTILOS RESPONSIVOS-->
-
-	<!--Animaciones-->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-	<!--Fuente-->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
-
-	<!--Favicon-->
-	<link rel="icon" href="icon.png" type="image/png" />
-
+	<!-- FUENTES -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
 </head>
-
 <body>
-	<!--MENU DE NAVEGACION-->
-	<header id="header">
-		<nav class="menu">
-			<div class="logo">
-				<h1>
-					<a href="#">F.J. | Desarrollador Web</a>
-					<span class="btnMenu"><i class="fas fa-bars"></i></span>
-				</h1>
-			</div>
-
-			<div class="contenedorMenu">
-				<ul class="lista">
-					<li>
-						<a href="#about" rel="nofollow">Conóceme</a>
-					</li>
-					<li>
-						<a href="#proyectos" rel="nofollow">Proyectos</a>
-					</li>
-					<li>
-						<a href="#apps" rel="nofollow">Aplicaciones</a>
-					</li>
-				</ul>
-			</div>
+	<header>
+		<nav>
+			<a href="#about">Conóceme</a>
+			<a href="#proyectos">Proyectos</a>
+			<a href="#servicios">Servicios</a>
 		</nav>
 
-		<!--IMG HEADER-->
-		<div class="imgHeader">
-			<!--DIV FORZOSO PARA CARGAR LAS PARTICULAS-->
-			<div id="particles-js"></div>
-			<div class="welcome">
-				<h1>Fernando Juárez</h1>
-				<hr>
-				<p>Desarrollador Web</p>
-			</div>
+		<div class="headerTexto">
+			<h1>Fernando Juárez</h1>
+			<hr>
+			<h2>Desarrollos Web</h2>
 		</div>
-		<div class="diagonalAbajo" id=''></div>
+
+		<!-- WAVE -->
+		<div class="wave" style="height: 150px; overflow: hidden;" >
+			<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+				<path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#D3D5FD;">
+				</path>
+			</svg>
+		</div>
+		<div id="about"></div>
 	</header>
 
-	<main id='main'>
+	<main>
+		<!-- ABOUT -->
+		<section class="about">
+			<h2 class="titulo">Conociendo al Desarrollador</h2>
 
-		<!--ABOUT-->
-		<section class="about" id='about'>
-			<div class="infoAbout">
-				<div class="tituloAbout">
-					<h2>Conociendo al Desarrollador</h2>
+			<div class="aboutContenedor">
+				<img class="aboutImg" src="img/ilus/01.png" alt="">
+
+				<div class="aboutTexto">
+					<h3><span></span>Hola… yo soy <b>Fernando Juárez Aldorica</b>, licenciado en Informática egresado de la FES-Cuautitlán con especialización en el <b>Diseño y Desarrollo Web Front-End</b>.</h3>
+
+					<h3><span></span>Cuento con experiencia en diseño de Mockups y desarrollo de <b>Landing Pages Responsivas</b> optimizadas en <b>Marketing Digital y SEO</b>. Además de tener experiencia en creaciones de <b>campañas publicitarias</b> en redes sociales.</h3>
 				</div>
-				<p data-aos="fade-down" data-aos-duration="1000">
-					Hola… yo soy <b>Fernando Juárez Aldorica</b>, licenciado en Informática egresado de la <b>FES-Cuautitlán</b> con inclinación hacia el <b>Desarrollo Web Front-End.</b> Cuento con experiencia en diseño de <b>Mockups</b> y desarrollo de <b>Landing Pages Responsivas</b>.
-					<br><br>
-					Juntos hagamos que tu <b>marca</b> o <b>negocio</b> llegue a más personas y planta bandera dentro del <b>internet.</b>
-					<br><br>
-					Para esto ofrezco <b>Diseños Web Escalables y Adaptativos</b> lo que significa que tu Web podrá ser visible tanto en <b>Teléfonos Móviles</b> como en <b>Tablets.</b> . A la par de esto todas las <b>Páginas Web</b> o <b>Landing Pages</b> que desarrolle para ti estarán optimizadas en <b>SEO</b> y <b>Marketing Digital</b> con el objetivo de captar más clientes para tu negocio.
-					<br><br>
-					<b>!No lo dudes y contactame¡</b>
-				</p>
-				<!--<p><a href="portafolios.html">Portafolios</a></p>-->
 			</div>
+			<div id="proyectos"></div>
+		</section>
 
-			<div class="imgAbout" data-aos="fade-up" data-aos-duration="1000">
-				<img id='aboutImg' onclick='mail()' onmouseover="cambioAbout()" onmouseout="regresoAbout()" src="img/about.jpg" alt="Contacto">
-				<img id='aboutImg02' onclick='mail()' onmouseover="cambioAbout()" onmouseout="regresoAbout()" src="img/about-01.jpg" alt="Contacto">
+		<!-- PROYECTOS -->
+		<section class="proyectos">
+			<div class="proyectosContenedor">
+				<h2 class="titulo">Proyectos</h2>
+
+				<div class="proyectosGaleria">
+
+					<!-- PROYECTO 1 -->
+					<!-- HOUSE OF COMIC -->
+					<div class="proyectoImg">
+						<img src="img/proyectos/01.jpg" alt="">
+						<div class="hover" id="alerta">
+							<img src="img/web.png" alt="">
+							<p>Sitio Web de una tienda de Comics.</p>
+						</div>
+					</div>
+
+					<!-- PROYECTO 2 -->
+					<!-- ADRIANA -->
+					<div class="proyectoImg">
+						<img src="img/proyectos/02.jpg" alt="">
+						<div class="hover" id="alerta2">
+							<img src="img/web.png" alt="">
+							<p>Book digital de una Artista Gráfica</p>
+						</div>
+					</div>
+
+					<!-- PROYECTO 3 -->
+					<!-- Panaderia y Reposteria -->
+					<div class="proyectoImg">
+						<img src="img/proyectos/03.jpg" alt="">
+						<div class="hover" id="alerta3">
+							<img src="img/web.png" alt="">
+							<p>Sitio Web de una Panaderia y Reposteria</p>
+						</div>
+					</div>
+
+					<!-- PROYECTO 4 -->
+					<!-- CONCESIONARIA DE AUTOS -->
+					<div class="proyectoImg">
+						<img src="img/proyectos/04.jpg" alt="">
+						<div class="hover" id="alerta4">
+							<img src="img/web.png" alt="">
+							<p>Sitio Web de una concesionaria de Autos</p>
+						</div>
+					</div>
+
+					<!-- PROYECTO 5 -->
+					<!-- TIENDA DE TENIS -->
+					<div class="proyectoImg">
+						<img src="img/proyectos/05.jpg" alt="">
+						<div class="hover" id="alerta5">
+							<img src="img/web.png" alt="">
+							<p>Sitio Web de una tienda de Zapatos Deportivos</p>
+						</div>
+					</div>
+
+					<!-- PROYECTO 6 -->
+					<div class="proyectoImg">
+						<img src="img/00.jpg" alt="">
+						<div class="hover" id="alerta6">
+							<img src="img/web.png" alt="">
+							<p>Próximamente un nuevo proyecto, regresa pronto</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
-		<!--FRASE-->
-		<section class="frase">
-			<div class="diagonalArribaNegro" id=''></div>
-			<figure class="fraseImg" id='frase'>
-				<h3 data-aos="zoom-in" data-aos-duration="1000">"El Profeta del futuro, es sin duda alguna el Pasado"</h3>
-				<p data-aos="zoom-in" data-aos-duration="1000">- Lord Byron -</p>
-			</figure>
-			<div class="diagonalAbajo" id=''></div>
-		</section>
+		<!-- DATOS -->
+		<section class="datos">
+			<h2 class="titulo">Datos Interesantes</h2>
 
-		<!--PROYECTOS-->
-		<section class="proyectos" id='proyectos'>
-			<div class="contenedorProyectos">
-				<div class="tituloProyectos">
-					<h2>Proyectos</h2>
+			<div class="datosCard">
+				<!-- DATO 1 -->
+				<div class="card">
+					<img src="img/datos/01.jpg" alt="">
+					<div class="datosTexto">
+						<h3>¿Qué es el Diseño Responsivo?</h3>
+						<p>Es crear un sitio web que se adapte a diferentes dispositivos proporcionalmente, manteniendo su estructura y orden.</p>
+					</div>
 				</div>
 
-				<div class="subTitulo">
-					<h2>Landing Pages</h2>
-					<hr>
-				</div>
-
-				<div class="proyectosIMG" data-aos="fade-up" data-aos-duration="1000">
-					<img id='tenis' onclick='link05()' onmouseover="cambio05()" onmouseout="regreso05()" src="img/proyectos/05.jpg" alt="Tienda de Tenis">
-					<img id='auto' onclick='link04()' onmouseover="cambio04()" onmouseout="regreso04()" src="img/proyectos/04.jpg" alt="Agencia de Autos">
-					<img id='pan' onclick='link03()' onmouseover="cambio03()" onmouseout="regreso03()" src="img/proyectos/03.jpg" alt="Panaderia y Reposteria">
-					<img id='aj' onclick='link02()' onmouseover="cambio02()" onmouseout="regreso02()" src="img/proyectos/02.jpg" alt="Artista Gráfica">
-					
-				</div>
-
-				<div class="subTitulo">
-					<h2>Páginas Web</h2>
-					<hr>
-				</div>
-
-				<div class="proyectosIMGWeb" data-aos="fade-up" data-aos-duration="1000">
-					<img id='hoc' onclick='link01()' onmouseover="cambio01()" onmouseout="regreso01()" src="img/proyectos/01.jpg" alt="Tienda en Línea">
+				<!-- DATOS 2 -->
+				<div class="card">
+					<img src="img/datos/02.jpg" alt="">
+					<div class="datosTexto">
+						<h3>¿Es fundamental una Web Responsiva?</h3>
+						<p>Si, 60% de los usuarios desconfiarán de una empresa con un sitio web que no es responsivo.</p>
+					</div>
 				</div>
 			</div>
+			<div id="servicios"></div>
 		</section>
 
-		<!--APLICACIONES-->
-		<section class="apps" id="apps">
-			<div class="diagonalArriba" id=''></div>
-			<div class="appsContenedor">
-				<div class="appsTitulo">
-					<h2>Aplicaciones</h2>
-				</div>
+		<!-- SERVICIOS -->
+		<section class="servicios">
+			<div class="serviciosContenedor">
+				<h2 class="titulo">Servicios</h2>
 
-				<div class="appsImg" data-aos="fade-up" data-aos-duration="1000">
-					<img id='carrusel' onclick='app05()' onmouseover="appCambio05()" onmouseout="appRegreso05()" src="img/apps/05.jpg" alt="Carrusel de Imágenes con JS">
-					<img id='lightbox' onclick='app01()' onmouseover="appCambio01()" onmouseout="appRegreso01()" src="img/apps/01.jpg" alt="Galería de Fotos con Lightbox JS">
-					<img id='swiper' onclick='app02()' onmouseover="appCambio02()" onmouseout="appRegreso02()" src="img/apps/02.jpg" alt="Slideshow con Swiper">
-					<img id='menuAnimado' onclick='app03()' onmouseover="appCambio03()" onmouseout="appRegreso03()" src="img/apps/03.jpg" alt="Menú Animado">
-					<img id='carga' onclick='app04()' onmouseover="appCambio04()" onmouseout="appRegreso04()" src="img/apps/04.jpg" alt="Ejemplo de Pantalla de Carga">
+				<div class="serviciosGrupo">
+
+					<!-- SERVICIO 1 -->
+					<div class="servicio">
+						<img src="img/ilus/02-2.png" alt="">
+						<h3>Diseño a Medida</h3>
+						<p>Como objetivo principal sera el diferenciar y posicionar tu marca y sitio web en el mercado, con un diseño notable, especifico y personalizado, con procesos y funcionalidades adaptadas a tu organización.
+						</p>
+					</div>
+
+					<!-- SERVICIO 2 -->
+					<div class="servicio">
+						<img src="img/ilus/03.png" alt="">
+						<h3>Posicionamiento SEO</h3>
+						<p>Se desarrollara una estrategia adaptada a cada caso con las palabras clave idóneas, en esta fase inicial se analiza el mercado, los objetivos, la audiencia, la competencia y las palabras clave adecuadas para su empresa.
+						</p>
+					</div>
+
+					<!-- SERVICIO 3 -->
+					<div class="servicio">
+						<img src="img/ilus/04.png" alt="">
+						<h3>Diseño Web Responsivo</h3>
+						<p>Se diseñaran y desarrollaran sitios web que sean totalmente responsivos para que tenga una buena visualizaci'on e interacción tanto en tablets como en los teléfonos móviles de ultima generación.
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>
 	</main>
 
-	<!--FOOTER-->
-	<footer class="footer">
-		<p>&copy; Fernando Juárez | Desarrollador Web | Derechos Reservados 2021</p>
-	</footer>
-
 	<!--HOME-->
 	<div class="home">
-		<i class="far fa-hand-point-up"></i>
+		<span class="fas fa-level-up-alt"></span>
 	</div>
 
+	<footer>
+		<div class="footerContenedor">
+			<!-- DATO 1 -->
+			<div class="footerDatos">
+				<h3>Teléfono</h3>
+				<p>55-1477-3155</p>
+			</div>
+
+			<!-- DATO 2 -->
+			<div class="footerDatos">
+				<h3>Correo Electronico</h3>
+				<p>fernandojuareza24@gmail.com</p>
+			</div>
+
+			<!-- DATO 1 -->
+			<div class="footerDatos">
+				<h3>Ubicación</h3>
+				<p>Edo. Mex. | Cuautitlán Izcalli</p>
+			</div>
+		</div>
+
+		<h2 class="copy">&copy;Desarrollos Web | Fernando Juárez</h2>
+	</footer>
 
 
-	<!--SCRIPTS-->
-	<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
-	<script src="js/funciones.js"></script>
-	<script src="js/particles.js"></script>
-	<script src="js/particles-lib.js"></script>
-	<!--Animaciones-->
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>AOS.init();</script>
+<!-- SCRIPTS -->
+<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
+<script src="js/home.js"></script>
+<script src="js/activado.js"></script>
+<script src="js/alerta.js"></script>
 </body>
 </html>
