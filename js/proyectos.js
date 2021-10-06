@@ -18,3 +18,7 @@ document.getElementById('auto').onclick = function(){
 document.getElementById('tenis').onclick = function(){
    window.open('https://fernandojuarez24.github.io/AirMexican/');
 }
+/* CUPCAKES */
+document.getElementById('cupcake').onclick = function(){
+   window.open('https://fernandojuarez24.github.io/HornitoCorazon/');
+}
