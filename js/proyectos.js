@@ -22,7 +22,7 @@ document.getElementById('tenis').onclick = function(){
 document.getElementById('cupcake').onclick = function(){
    window.open('https://fernandojuarez24.github.io/HornitoCorazon/');
 }
-/* PSICOLOGÍA */
-document.getElementById('psico').onclick = function(){
-   window.open('https://fernandojuarez24.github.io/psicologia/');
+/* ENFERMERIA */
+document.getElementById('nurse').onclick = function(){
+   window.open('https://fernandojuarez24.github.io/MiEnfermera/');
 }
