@@ -295,6 +295,45 @@ header .headerTexto h2{
 	line-height: 25px;
  }
 
+ /* PRECIOS */
+.precios hr{
+	border: none;
+	outline: none;
+	height: 2px;
+	background: var(--grisOscuro);
+	width: 80px;
+	margin: -45px auto 50px;
+}
+.preciosCard{
+	display: flex;
+	justify-content: space-evenly;
+}
+.preciosCard .card{
+	background: var(--negro);
+	display: flex;
+	width: 45%;
+	height: 200px;
+	align-items: center;
+	justify-content: space-evenly;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.6);
+}
+.preciosCard .card img{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	display: block;
+}
+.preciosCard .card > .preciosTexto{
+	width: 60%;
+	color: var(--grisClaro);
+}
+.preciosCard .card > .preciosTexto p{
+	font-weight: lighter;
+	padding-top: 5px;
+	text-align: justify;
+	line-height: 20px;
+}
+
  /* FOOTER */
  footer{
  	background: var(--negro);

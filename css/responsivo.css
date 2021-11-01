@@ -42,6 +42,17 @@
 	.servicios .serviciosGrupo .servicio:nth-child(2){
 		margin-bottom: 90px;
 	}
+	.preciosCard{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.preciosCard .card{
+		width: 90%;
+	}
+	.preciosCard .card:first-child{
+		margin-bottom: 30px;
+	}
 }
 @media screen and (max-width: 500px){
 	header .headerTexto h1{
@@ -106,5 +117,21 @@
 	.servicios .serviciosGrupo .servicio:nth-child(1),
 	.servicios .serviciosGrupo .servicio:nth-child(2){
 		margin-bottom: 5px;
+	}
+	.preciosCard .card{
+		height: 450px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.preciosCard .card img{
+		width: 150px;
+		height: 150px;
+	}
+	.preciosCard .card > .datosTexto{
+		width: 80%;
+	}
+	.preciosCard .card > .datosTexto p{
+		text-align: justify;
 	}
 }
