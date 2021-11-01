@@ -84,7 +84,7 @@ header nav > a.activo{
 }
 header .headerTexto{
 	display: flex;
-	height: 450px;
+	height: 500px;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
