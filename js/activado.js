@@ -1,4 +1,4 @@
-let enlace = document.querySelectorAll('nav > a');
+let enlace = document.querySelectorAll('.lista li a');
 
 enlace.forEach((element) => {
 	element.addEventListener('click', (event) => {

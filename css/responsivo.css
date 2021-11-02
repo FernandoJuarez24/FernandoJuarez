@@ -1,6 +1,60 @@
+:root{
+	--negro:#0B0B0D;
+	--grisOscuro:#474A56;
+	--gris:#929AAB;
+	--grisClaro:#D3D5FD;
+}
+
 @media screen and (max-width: 900px){
 	header{
 		background-position: center;
+	}
+	header .headerTexto{
+		width: 100%;
+	}
+	header .headerTexto h1{
+		font-size: 60px;
+	}
+	header nav{
+		height: 65px;
+	}
+	header nav .menu{
+		position: absolute;
+		top: 65px;
+		left: -100%;
+		width: 100%;
+		height: 300px;
+		background: var(--negro);
+	}
+	header nav .menu .lista{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	header nav .menu .lista li{
+		width: 70%;
+		margin: 10px 0;
+		padding: 10px 0;
+		text-align: center;
+	}
+	header nav .menu .lista li a{
+		font-size: 25px;
+	}
+	.burger > .fa-bars{
+		display: block;
+		position: absolute;
+		top: 15px;
+		right: 30px;
+		font-size: 35px;
+		cursor: pointer;
+		color: var(--grisClaro);
+		transition: 0.5s;
+	}
+	.burger > .fa-bars:hover{
+		color: var(--gris);
 	}
 	.aboutContenedor{
 		flex-direction: column;
