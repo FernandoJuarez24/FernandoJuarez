@@ -26,3 +26,7 @@ document.getElementById('cupcake').onclick = function(){
 document.getElementById('nurse').onclick = function(){
    window.open('https://fernandojuarez24.github.io/MiEnfermera/');
 }
+/* ENFERMERIA */
+document.getElementById('cosplay').onclick = function(){
+   window.open('https://fernandojuarez24.github.io/CosplayGirl/');
+}
