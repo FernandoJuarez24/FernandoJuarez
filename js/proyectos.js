@@ -26,7 +26,15 @@ document.getElementById('cupcake').onclick = function(){
 document.getElementById('nurse').onclick = function(){
    window.open('https://fernandojuarez24.github.io/MiEnfermera/');
 }
-/* ENFERMERIA */
+/* COSPLAY */
 document.getElementById('cosplay').onclick = function(){
    window.open('https://fernandojuarez24.github.io/CosplayGirl/');
+}
+/* GUITARRA */
+document.getElementById('guitarra').onclick = function(){
+   window.open('https://fernandojuarez24.github.io/LaGuitarraDeLolo/');
+}
+/* TECNOLOGIA */
+document.getElementById('tecno').onclick = function(){
+   window.open('https://fernandojuarez24.github.io/NeuroTec/');
 }
